@@ -21,5 +21,6 @@ int main()
  printf("git log -p -1:- to see last commit in detail\n");
  printf("git diff:- shows difference of staging area and working directory\n");
  printf("git diff --staged:- shows differenc between staging area and last commit\n");
+ printf("git rm:- (--cached:- remove frome track state, -f:- remove completely(use caution) )");
  return 0;
-}
+} 
