@@ -29,6 +29,7 @@ int main()
  printf("git branch :- see list of all branches available\n");
  printf("git merge nameofbranch:- merge new branch with master branch\n");
  printf("git branch -b name:-creaton of new branch name and jumping over to it at same time\n");
+ printf("git push regarding details from github server");
  
  return 0;
 } 
