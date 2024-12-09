@@ -19,5 +19,6 @@ int main()
  printf("git log:- to see all list of commits\n");
  printf("git log -p -1:- to see last commit in detail\n");
  printf("git diff:- shows difference of staging area and working directory\n");
+ printf("git diff --staged:- shows differenc between staging area and last commit\n");
  return 0;
 }
