@@ -14,6 +14,7 @@ int main()
  printf("git commit :- file from staged to unmodified state\n");
  printf(" git commit m1(initial commit):- 'git commit filename.c'->i->esc->:wq->enter\n ");
  printf("git commit m2 :- 'git commit -m ''commit message'''\n");
+ printf("git commit -a -m ''commit message '' :- commit all files at same time ");
  printf("git checkout filename :- go to last commit state(use caustion)\n");
  printf("git checkout -f:- commit all files at a time\n");
  printf("git log:- to see all list of commits\n");
