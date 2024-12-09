@@ -15,5 +15,9 @@ int main()
  printf(" git commit m1(initial commit):- 'git commit filename.c'->i->esc->:wq->enter\n ");
  printf("git commit m2 :- 'git commit -m ''commit message'''\n");
  printf("git checkout filename :- go to last commit state(use caustion)\n");
+ printf("git checkout -f:- commit all files at a time\n");
+ printf("git log:- to see all list of commits\n");
+ printf("git log -p -1:- to see last commit in detail\n");
+ printf("git diff:- shows difference of staging area and working directory\n");
  return 0;
 }
