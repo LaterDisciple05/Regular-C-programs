@@ -27,7 +27,8 @@ int main()
  printf("git branch nameofbranch:- add a new branch to work with\n");
  printf("git checkout nameofbranch:- to jump over to new branch from master branch\n");
  printf("git branch :- see list of all branches available\n");
- printf("git merge nameofbranch:- merge new branch with master branch");
+ printf("git merge nameofbranch:- merge new branch with master branch\n");
+ printf("git branch -b name:-creaton of new branch name and jumping over to it at same time\n");
  
  return 0;
 } 
