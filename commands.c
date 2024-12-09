@@ -21,6 +21,11 @@ int main()
  printf("git log -p -1:- to see last commit in detail\n");
  printf("git diff:- shows difference of staging area and working directory\n");
  printf("git diff --staged:- shows differenc between staging area and last commit\n");
- printf("git rm:- (--cached:- remove frome track state, -f:- remove completely(use caution) )");
+ printf("git rm:- (--cached:- remove frome track state, -f:- remove completely(use caution) )\n\n");
+ printf("short status command (git status -s):- mm:-modified in stagearea->modified in working tree\n");
+ printf(".gitignore file(write filename to ignore),(*.c to ignore all .c extension files),(/files files other than folder are ignored),(files/ files in the folder only ignored\n)");
+ printf("git branch nameofbranch:- add a new branch to work with\n");
+ printf("git checkout nameofbranch:- to jump over to new branch from master branch\n");
+ printf("git branch :- see list of all branches available\n");
  return 0;
 } 
