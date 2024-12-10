@@ -1,5 +1,5 @@
 /*Program purpose:-using and understanding 3 types of loops in c (for,while,do while)
-Program date:-
+Program date:-10/12/2024
 Program author:-Akshat Shah
 Program flaws(if any):-NA*/
 // #include<stdio.h>
