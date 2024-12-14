@@ -22,6 +22,6 @@ int tower(int a)
   }
   else
   {
-    return (a-2)*7+1;
+    return tower(a-1)*2 +1;
   }
 }
